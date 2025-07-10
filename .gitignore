@@ -1,0 +1,41 @@
+# === VS Code ===
+.vscode/
+.history/
+
+# === Terraform ===
+*.tfstate
+*.tfstate.*
+.terraform/
+.crash/
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# === Docker ===
+*.log
+*.env
+docker-compose.override.yml
+
+# === Python (optional for scripts or examples) ===
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+venv/
+
+# === MacOS / Linux system files ===
+.DS_Store
+Thumbs.db
+
+# === Node/NPM (if ever used for UI or tools) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
